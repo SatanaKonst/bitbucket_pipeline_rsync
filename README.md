@@ -1,5 +1,8 @@
 # bitbucket_pipeline_rsync
 
+Cкрипты для автоматической выгрузки по rsync для Bitbucket Pipelines
+
+
 <b>bitbucket-pipelines.yml</b>
 
 <pre>
