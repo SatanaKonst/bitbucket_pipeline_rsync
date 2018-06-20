@@ -2,7 +2,7 @@
 
 <b>bitbucket-pipelines.yml</b>
 
-<code>
+<pre>
 image: debian
 
 pipelines:
@@ -12,11 +12,11 @@ pipelines:
           - apt-get update && apt-get install -y ssh rsync expect
           -  chmod +x sync_files.sh
           - ./sync_files.sh
-</code>	
+</pre>	
 
 <b>sync_files.sh</b>
 
-<code>
+<pre>
 	#!/usr/bin/expect
 	set host "Host"
 	set user "Username"
@@ -45,4 +45,4 @@ pipelines:
 	    exit 1
 	}
 	exit 0
-</code>	
+</pre>	
