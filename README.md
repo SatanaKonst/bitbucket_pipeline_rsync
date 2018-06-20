@@ -1,6 +1,6 @@
 # bitbucket_pipeline_rsync
 
-#bitbucket-pipelines.yml
+<b>bitbucket-pipelines.yml</b>
 
 <code>
 image: debian
@@ -14,7 +14,7 @@ pipelines:
           - ./sync_files.sh
 </code>	
 
-#sync_files.sh
+<b>sync_files.sh</b>
 
 <code>
 	#!/usr/bin/expect
